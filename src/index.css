@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  background-image: url('./assets/coldbg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.5s ease-out;
+}
+
+.app.hot {
+  background-image: url(./assets/hotbg.jpg);
+}
+
+main {
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.search-box {
+  width: 100%;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 20px;
+
+  background-color: rgb(208, 230, 243);
+  appearance: none;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  outline: none;
+  box-shadow: 0px 3px rgb(104, 127, 142);
+
+  color: rgb(44, 43, 43);
+  font-size: 18px;
+
+  transition: 0.5s ease;
+}
+
+.location-box{
+  background-color: rgba(117, 115, 115, 0.7);
+  margin: 20px;
+  padding: 22px;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+
+.weather-box{
+  background-color: rgba(117, 115, 115, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.location-box .location {
+  padding-top: 25px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.location-box .date {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.weather-box .temp {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
